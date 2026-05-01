@@ -29,6 +29,12 @@ pipeline {
 			}
 		
 		}
+        stage("Checking auto trigger"){
+			steps {
+				echo 'Gratar bomba!!!'
+			}
+		
+		}
 	
 	}
 }
