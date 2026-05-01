@@ -23,6 +23,12 @@ pipeline {
 			}
 		
 		}
+        stage("Saying hooray"){
+			steps {
+				echo 'HOORAY!!!'
+			}
+		
+		}
 	
 	}
 }
