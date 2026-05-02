@@ -29,11 +29,6 @@ pipeline {
 			}
 		
 		}
-        stage("No"){
-			steps {
-				echo 'No...'
-			}
-		
-		}	
+
 	}
 }
