@@ -23,18 +23,6 @@ pipeline {
 			}
 		
 		}
-        stage("Saying hooray"){
-			steps {
-				echo 'HOORAY!!!'
-			}
-		
-		}
-        stage("Checking auto trigger"){
-			steps {
-				echo 'Gratar bomba!!!'
-			}
-		
-		}
 	
 	}
 }
