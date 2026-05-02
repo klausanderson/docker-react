@@ -28,6 +28,12 @@ pipeline {
 				echo 'Yeah...'
 			}
 		
+		}
+        stage("No"){
+			steps {
+				echo 'No...'
+			}
+		
 		}	
 	}
 }
